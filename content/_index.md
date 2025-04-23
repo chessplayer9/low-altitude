@@ -14,24 +14,25 @@ sections:
       text: |
         <style>
           .title-container {
-            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             position: relative;
             margin: 20px 0;
+            gap: 8px; /* 控制主副标题间距 */
           }
           .main-title {
             white-space: nowrap;
             font-size: 80px;
             color: #2b73af;
             font-weight: bold;
-            display: inline-block;
           }
           .sub-forum {
-            position: absolute;
-            right: 0;
-            bottom: -5px;
             font-size: 40px;
             color: #666;
             white-space: nowrap;
+            align-self: flex-end; /* 右对齐 */
+            margin-right: 20px; /* 向右偏移量 */
           }
         </style>
 
