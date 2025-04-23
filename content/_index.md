@@ -56,17 +56,21 @@ sections:
         ## 二、论坛议程
 
         <style>
+          .table-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+          }
           .schedule-table {
-            width: 75%;
+            width: auto; /* 改为自适应宽度 */
             border-collapse: collapse;
             font-family: Arial, sans-serif;
-            margin: 20px 0;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
           }
           .schedule-table th,
           .schedule-table td {
-            padding: 10px 12px;
-            text-align: center; /* 所有单元格内容居中 */
+            padding: 10px 15px; /* 适当增加内边距 */
+            text-align: center;
             vertical-align: middle;
             border-bottom: 1px solid #e0e0e0;
           }
@@ -93,83 +97,84 @@ sections:
           /* 列宽设置 */
           .schedule-table th:nth-child(1),
           .schedule-table td:nth-child(1) {
-            width: 15%;
+            width: 180px; /* 固定时间列宽度 */
           }
           .schedule-table th:nth-child(2),
           .schedule-table td:nth-child(2) {
-            width: 45%;
+            width: 350px; /* 固定标题列宽度 */
           }
           .schedule-table th:nth-child(3),
           .schedule-table td:nth-child(3) {
-            width: 20%;
+            width: 150px; /* 固定报告人列宽度 */
           }
           .schedule-table th:nth-child(4),
           .schedule-table td:nth-child(4) {
-            width: 20%;
+            width: 150px; /* 固定单位列宽度 */
           }
         </style>
 
-        <table class="schedule-table">
-          <thead>
-            <tr>
-              <th>时间</th>
-              <th>报告题目</th>
-              <th>报告人</th>
-              <th>单位</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="header-row">
-              <td>14:00 ~ 14:30</td>
-              <td colspan="3">领导致辞与技术发布</td>
-            </tr>
-            <tr>
-              <td>14:30 ~ 15:00</td>
-              <td>待定</td>
-              <td>张艳宁</td>
-              <td>西工大</td>
-            </tr>
-            <tr>
-              <td>15:00 ~ 15:30</td>
-              <td>待定</td>
-              <td>李世鹏</td>
-              <td>IDEA</td>
-            </tr>
-            <tr class="header-row">
-              <td>15:30 ~ 15:45</td>
-              <td colspan="3">茶歇</td>
-            </tr>
-            <tr>
-              <td>15:45 ~ 16:15</td>
-              <td>待定</td>
-              <td>王涛</td>
-              <td>航天宏图</td>
-            </tr>
-            <tr>
-              <td>16:15 ~ 16:45</td>
-              <td>分布式空天遥感解译基础模型研究新进展</td>
-              <td>孙显</td>
-              <td>空天院</td>
-            </tr>
-            <tr>
-              <td>16:45 ~ 17:15</td>
-              <td>面向无人机遥感的开放世界感知</td>
-              <td>项翔</td>
-              <td>华科</td>
-            </tr>
-            <tr>
-              <td>17:15 ~ 17:45</td>
-              <td>基于多模态基础模型的鲁棒视频目标跟踪与分割技术</td>
-              <td>李鑫</td>
-              <td>鹏城实验室</td>
-            </tr>
-            <tr class="header-row">
-              <td>17:45 ~ 18:00</td>
-              <td colspan="3">总结发言</td>
-            </tr>
-          </tbody>
-        </table>
-
+        <div class="table-container">
+          <table class="schedule-table">
+            <thead>
+              <tr>
+                <th>时间</th>
+                <th>报告题目</th>
+                <th>报告人</th>
+                <th>单位</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="header-row">
+                <td>14:00 ~ 14:30</td>
+                <td colspan="3">领导致辞与技术发布</td>
+              </tr>
+              <tr>
+                <td>14:30 ~ 15:00</td>
+                <td>待定</td>
+                <td>张艳宁</td>
+                <td>西工大</td>
+              </tr>
+              <tr>
+                <td>15:00 ~ 15:30</td>
+                <td>待定</td>
+                <td>李世鹏</td>
+                <td>IDEA</td>
+              </tr>
+              <tr class="header-row">
+                <td>15:30 ~ 15:45</td>
+                <td colspan="3">茶歇</td>
+              </tr>
+              <tr>
+                <td>15:45 ~ 16:15</td>
+                <td>待定</td>
+                <td>王涛</td>
+                <td>航天宏图</td>
+              </tr>
+              <tr>
+                <td>16:15 ~ 16:45</td>
+                <td>分布式空天遥感解译基础模型研究新进展</td>
+                <td>孙显</td>
+                <td>空天院</td>
+              </tr>
+              <tr>
+                <td>16:45 ~ 17:15</td>
+                <td>面向无人机遥感的开放世界感知</td>
+                <td>项翔</td>
+                <td>华科</td>
+              </tr>
+              <tr>
+                <td>17:15 ~ 17:45</td>
+                <td>基于多模态基础模型的鲁棒视频目标跟踪与分割技术</td>
+                <td>李鑫</td>
+                <td>鹏城实验室</td>
+              </tr>
+              <tr class="header-row">
+                <td>17:45 ~ 18:00</td>
+                <td colspan="3">总结发言</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
         ## 三、组织者信息
 
         ## 四、讲者信息
