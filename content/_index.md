@@ -11,8 +11,7 @@ design:
 sections:
   - block: markdown
     content:
-      title: |
-      text: |-
+      text: |
         <style>
           .no-wrap-center {
             white-space: nowrap; 
@@ -29,8 +28,7 @@ sections:
 
   - block: markdown
     content:
-      title: |
-      text: |-
+      text: |
         {{< test margin="625px" bg="#ffffff" >}}
 
         # 论坛介绍
