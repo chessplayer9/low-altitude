@@ -9,52 +9,6 @@ design:
   spacing: "0rem"
 
 sections:
-  # - block: markdown
-  #   content:
-  #     text: |
-  #       <style>
-  #         body {
-  #           background: 
-  #             linear-gradient(rgba(255,255,255,0.7), 
-  #             rgba(255,255,255,0.7)),
-  #             url('background.png') center/cover fixed;
-  #           margin: 0;
-  #           min-height: 100vh;
-  #         }
-  #       </style>
-
-  #         <style>
-  #         .title-container {
-  #           display: flex;
-  #           flex-direction: column;
-  #           align-items: center;
-  #           position: relative;
-  #           margin: 20px 0;
-  #           gap: 10px; /* 控制主副标题间距 */
-  #         }
-  #         .main-title {
-  #           white-space: nowrap;
-  #           font-size: 80px;
-  #           color: #2b73af;
-  #           font-weight: bold;
-  #         }
-  #         .sub-forum {
-  #           font-size: 40px;
-  #           color: #666;
-  #           white-space: nowrap;
-  #           align-self: flex-end; /* 右对齐 */
-  #           margin-right: -300px; /* 向右偏移量 */
-  #         }
-  #       </style>
-
-  #       <div class="title-container">
-  #         <div class="main-title">低空智能感知计算与应用</div>
-  #         <div class="sub-forum">———2025中国多媒体大会分论坛</div>
-  #       </div>
-  #     design:
-  #       spacing:
-  #         padding: ["100px", "0px", "0px", "0px"]  # 垂直30px/水平0
-
   - block: markdown
     content:
       text: |
@@ -502,7 +456,7 @@ sections:
         {{< /test >}}
       design:
         spacing:
-          padding: ["50px", "0px", "0px", "0px"]  # 垂直30px/水平0
+          padding: ["20px", "0px", "0px", "0px"]  # 垂直30px/水平0
 
 
 ---
