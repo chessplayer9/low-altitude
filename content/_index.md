@@ -140,7 +140,7 @@ sections:
                 <td>李世鹏</td>
                 <td>IDEA</td>
               </tr>
-              <tr class="header-row">
+              <tr class="break-row">
                 <td>15:30 ~ 15:45</td>
                 <td colspan="3">茶歇</td>
               </tr>
