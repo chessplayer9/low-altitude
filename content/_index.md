@@ -32,7 +32,7 @@ sections:
             color: #666;
             white-space: nowrap;
             align-self: flex-end; /* 右对齐 */
-            margin-right: 200px; /* 向右偏移量 */
+            margin-right: -400px; /* 向右偏移量 */
           }
         </style>
 
