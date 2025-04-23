@@ -503,6 +503,11 @@ sections:
       design:
         spacing:
           padding: ["50px", "0px", "0px", "0px"]  # 垂直30px/水平0
+        background:
+          # Choose a color such as from https://html-color-codes.info
+          color: '#f3f6fb'
+          # Text color (true=light, false=dark, or remove for the dynamic theme color).
+          text_color_light: true
 
 
 ---
