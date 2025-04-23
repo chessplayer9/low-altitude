@@ -132,7 +132,7 @@ sections:
                 <td>14:30 ~ 15:00</td>
                 <td>待定</td>
                 <td>张艳宁</td>
-                <td>西工大</td>
+                <td>西北工业大学</td>
               </tr>
               <tr>
                 <td>15:00 ~ 15:30</td>
@@ -160,7 +160,7 @@ sections:
                 <td>16:45 ~ 17:15</td>
                 <td>面向无人机遥感的开放世界感知</td>
                 <td>项翔</td>
-                <td>华科</td>
+                <td>华中科技大学</td>
               </tr>
               <tr>
                 <td>17:15 ~ 17:45</td>
@@ -202,8 +202,8 @@ sections:
             ">
             <div>
               <h3 style="margin: 0 0 8px 0">王耀威</h3>
-              <p style="margin: 0 0 10px 0; color: #000">Huazhong University of Science and Technology</p>
-              <p style="margin: 0; color: #666; font-size: 14px;">研究方向/个人简介可以放在这里</p>
+              <p style="margin: 0 0 10px 0; color: #000">哈尔滨工业大学(深圳)、鹏城实验室</p>
+              <p style="margin: 0; color: #666; font-size: 14px;">哈尔滨工业大学(深圳)教授，鹏城实验室研究员，教育部长江学者特聘教授，鹏城实验室网络智能研究部副主任、感知智能研究所所长。致力于多模态模型学习方法、大规模视频智能感知等领域研究，构建特征流与模型流协同的技术体系，解决了大规模视频智能感知处理的系统难题。在国际期刊/会议发表高水平论文140余篇，获授权专利50余项。曾承担国家/省部级项目20余项，包括科技创新2030“新一代人工智能”重大项目，国家自然基金重点项目和广东省“新一代人工智能”专项等，获2017年国家技术发明二等奖、中国电子学会2022年科技进步一等奖和2015年技术发明一等奖、广东省科技进步奖特等奖。担任IEEE TCSVT副主编、IEEE数字视网膜系统工作组主席，牵头制定首个端边云协同技术国际标准IEEE 3161-2022、IEEE 3161.9-2023和团体标准T/AI 116.1-2021，获IEEE标准杰出贡献奖。</p>
             </div>
           </div>
 
@@ -223,9 +223,9 @@ sections:
               margin-right: 15px;
             ">
             <div>
-              <h3 style="margin: 0 0 8px 0">Zhuo Xu</h3>
-              <p style="margin: 0 0 10px 0; color: #000">Huazhong University of Science and Technology</p>
-              <p style="margin: 0; color: #666; font-size: 14px;">研究方向/个人简介可以放在这里</p>
+              <h3 style="margin: 0 0 8px 0">曾志刚</h3>
+              <p style="margin: 0 0 10px 0; color: #000">华中科技大学</p>
+              <p style="margin: 0; color: #666; font-size: 14px;">国家杰出青年科学基金获得者，教育部长江学者特聘教授，万人计划科技创新领军人才，IEEE Fellow，华中科技大学人工智能与自动化学院院长，图像信息处理与智能控制教育部重点实验室主任。2003年6月在华中科技大学获系统分析与集成博士学位。曾在香港中文大学和中国科技大学从事博士后研究。先后担任IEEE Transactions on Neural Networks；IEEE Transactions on Cybernetics；IEEE Transactions on Fuzzy Systems；Cognitive Computation；Neural Networks；Applied Soft Computing；自动化学报；控制工程；系统工程与电子技术；控制理论与应用的编委。曾获教育部自然科学奖一等奖、湖北省自然科学一等奖、湖北省科技进步一等奖、国家科学技术进步奖二等奖等奖励。</p>
             </div>
           </div>
 
@@ -245,9 +245,9 @@ sections:
               margin-right: 15px;
             ">
             <div>
-              <h3 style="margin: 0 0 8px 0">Yao Deng</h3>
-              <p style="margin: 0 0 10px 0; color: #000">Huazhong University of Science and Technology</p>
-              <p style="margin: 0; color: #666; font-size: 14px;">研究方向/个人简介可以放在这里</p>
+              <h3 style="margin: 0 0 8px 0">陈轲</h3>
+              <p style="margin: 0 0 10px 0; color: #000">鹏城实验室</p>
+              <p style="margin: 0; color: #666; font-size: 14px;">鹏城实验室副研究员、视觉智能研究所所长助理、新一代人工智能产业技术创新战略联盟--智慧低空标准工作组联络组长。长期致力于几何驱动的智能感知方法与关键技术研究。主持国家级、省部级纵向项目/课题及产业界横向课题多项，个人累计承担经费总计两千余万元。发表SCI期刊和EI会议论文百余篇，其中CCF-A类或中科院1区论文五十余篇；申请发明专利十余项。 </p>
             </div>
           </div>
 
@@ -267,9 +267,9 @@ sections:
               margin-right: 15px;
             ">
             <div>
-              <h3 style="margin: 0 0 8px 0">Qinhao Zhou</h3>
-              <p style="margin: 0 0 10px 0; color: #000">Huazhong University of Science and Technology</p>
-              <p style="margin: 0; color: #666; font-size: 14px;">研究方向/个人简介可以放在这里</p>
+              <h3 style="margin: 0 0 8px 0">项翔</h3>
+              <p style="margin: 0 0 10px 0; color: #000">华中科技大学、鹏城实验室</p>
+              <p style="margin: 0; color: #666; font-size: 14px;">华中科技大学长聘副教授、图像与视觉学习实验室（HAIVLab）负责人，鹏城实验室访问学者。近年面向低空研究开放世界感知，获得国家级海外青年人才基金，作为第一作者或通讯作者在含CVPR、ICCV、ECCV、IJCV、IEEE汇刊在内的顶会顶刊发表55篇论文，其中ACM MM长文单篇被引921次，授权或申请专利10项，被提名ICPR-22 T-CAP最佳论文奖，任JVCI副编，因对多媒体领域贡献两次被提名 AI 2000。</p>
             </div>
           </div>
 
