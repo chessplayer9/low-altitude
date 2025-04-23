@@ -62,7 +62,7 @@ sections:
             margin: 20px 0;
           }
           .schedule-table {
-            width: auto; /* 改为自适应宽度 */
+            width: 75%; /* 改为自适应宽度 */
             border-collapse: collapse;
             font-family: Arial, sans-serif;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -175,6 +175,7 @@ sections:
             </tbody>
           </table>
         </div>
+
         ## 三、组织者信息
 
         ## 四、讲者信息
