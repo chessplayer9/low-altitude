@@ -63,37 +63,23 @@ sections:
             margin: 20px 0;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
           }
+          .schedule-table th,
+          .schedule-table td {
+            padding: 10px 12px;
+            text-align: center; /* 所有单元格内容居中 */
+            vertical-align: middle;
+            border-bottom: 1px solid #e0e0e0;
+          }
           .schedule-table th {
             background-color: #2b73af;
             color: white;
-            padding: 12px;
-            text-align: center;
             font-weight: bold;
-          }
-          .schedule-table td {
-            padding: 10px 12px;
-            border-bottom: 1px solid #e0e0e0;
-            vertical-align: middle;
           }
           .schedule-table tr:nth-child(even) {
             background-color: #f8f9fa;
           }
           .schedule-table tr:hover {
             background-color: #e9f5ff;
-          }
-          .time-col {
-            width: 15%;
-            text-align: center;
-            font-weight: 500;
-          }
-          .title-col {
-            width: 45%;
-          }
-          .speaker-col {
-            width: 20%;
-          }
-          .org-col {
-            width: 20%;
           }
           .break-row {
             background-color: #fff8e6 !important;
@@ -103,6 +89,23 @@ sections:
           .header-row {
             background-color: #f0f7ff;
             font-weight: bold;
+          }
+          /* 列宽设置 */
+          .schedule-table th:nth-child(1),
+          .schedule-table td:nth-child(1) {
+            width: 15%;
+          }
+          .schedule-table th:nth-child(2),
+          .schedule-table td:nth-child(2) {
+            width: 45%;
+          }
+          .schedule-table th:nth-child(3),
+          .schedule-table td:nth-child(3) {
+            width: 20%;
+          }
+          .schedule-table th:nth-child(4),
+          .schedule-table td:nth-child(4) {
+            width: 20%;
           }
         </style>
 
@@ -116,52 +119,52 @@ sections:
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td class="time-col">14:00 ~ 14:30</td>
+            <tr class="header-row">
+              <td>14:00 ~ 14:30</td>
               <td colspan="3">领导致辞与技术发布</td>
             </tr>
             <tr>
-              <td class="time-col">14:30 ~ 15:00</td>
-              <td class="title-col">待定</td>
-              <td class="speaker-col">张艳宁</td>
-              <td class="org-col">西工大</td>
+              <td>14:30 ~ 15:00</td>
+              <td>待定</td>
+              <td>张艳宁</td>
+              <td>西工大</td>
             </tr>
             <tr>
-              <td class="time-col">15:00 ~ 15:30</td>
-              <td class="title-col">待定</td>
-              <td class="speaker-col">李世鹏</td>
-              <td class="org-col">IDEA</td>
+              <td>15:00 ~ 15:30</td>
+              <td>待定</td>
+              <td>李世鹏</td>
+              <td>IDEA</td>
             </tr>
-            <tr class="break-row">
-              <td class="time-col">15:30 ~ 15:45</td>
+            <tr class="header-row">
+              <td>15:30 ~ 15:45</td>
               <td colspan="3">茶歇</td>
             </tr>
             <tr>
-              <td class="time-col">15:45 ~ 16:15</td>
-              <td class="title-col">待定</td>
-              <td class="speaker-col">王涛</td>
-              <td class="org-col">航天宏图</td>
+              <td>15:45 ~ 16:15</td>
+              <td>待定</td>
+              <td>王涛</td>
+              <td>航天宏图</td>
             </tr>
             <tr>
-              <td class="time-col">16:15 ~ 16:45</td>
-              <td class="title-col">分布式空天遥感解译基础模型研究新进展</td>
-              <td class="speaker-col">孙显</td>
-              <td class="org-col">空天院</td>
+              <td>16:15 ~ 16:45</td>
+              <td>分布式空天遥感解译基础模型研究新进展</td>
+              <td>孙显</td>
+              <td>空天院</td>
             </tr>
             <tr>
-              <td class="time-col">16:45 ~ 17:15</td>
-              <td class="title-col">面向无人机遥感的开放世界感知</td>
-              <td class="speaker-col">项翔</td>
-              <td class="org-col">华科</td>
+              <td>16:45 ~ 17:15</td>
+              <td>面向无人机遥感的开放世界感知</td>
+              <td>项翔</td>
+              <td>华科</td>
             </tr>
             <tr>
-              <td class="time-col">17:15 ~ 17:45</td>
-              <td class="title-col">基于多模态基础模型的鲁棒视频目标跟踪与分割技术</td>
-              <td class="speaker-col">李鑫</td>
-              <td class="org-col">鹏城实验室</td>
+              <td>17:15 ~ 17:45</td>
+              <td>基于多模态基础模型的鲁棒视频目标跟踪与分割技术</td>
+              <td>李鑫</td>
+              <td>鹏城实验室</td>
             </tr>
             <tr class="header-row">
-              <td class="time-col">17:45 ~ 18:00</td>
+              <td>17:45 ~ 18:00</td>
               <td colspan="3">总结发言</td>
             </tr>
           </tbody>
