@@ -38,7 +38,7 @@ sections:
 
         <div class="title-container">
           <div class="main-title">低空智能感知计算与应用</div>
-          <div class="sub-forum">——————2025中国多媒体大会分论坛</div>
+          <div class="sub-forum">———2025中国多媒体大会分论坛</div>
         </div>
       design:
         spacing:
