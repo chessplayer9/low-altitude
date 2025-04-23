@@ -130,7 +130,7 @@ sections:
           }
         </style>
 
-        {{< test margin="775px" bg="#f3f6fb" >}}
+        {{< test margin="775px" bg="#f8f9fd" >}}
 
         ## 一、论坛介绍
 
