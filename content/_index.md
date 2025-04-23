@@ -58,7 +58,7 @@ sections:
   - block: markdown
     content:
       text: |
-          <style>
+        <style>
           .title-container {
             display: flex;
             flex-direction: column;
