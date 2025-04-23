@@ -93,43 +93,6 @@ sections:
   - block: markdown
     content:
       text: |
-        <style>
-          body {
-            margin: 0;
-            min-height: 100vh;
-          }
-          
-          /* 全局背景设置 */
-          body::before {
-            content: "";
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: 
-              linear-gradient(rgba(255,255,255,0.7), 
-              rgba(255,255,255,0.7)),
-              url('background.png') center/cover;
-            z-index: -1;
-          }
-
-          /* Markdown内容容器特殊处理 */
-          .markdown-body, 
-          .content-wrapper,
-          [class*="markdown"] {
-            background: transparent !important;
-            position: relative;
-          }
-          
-          /* 覆盖Hugo默认样式 */
-          article, 
-          .post-content, 
-          .page-content {
-            background: transparent !important;
-          }
-        </style>
-
         {{< test margin="775px" bg="#ffffff" >}}
 
         ## 一、论坛介绍
@@ -503,11 +466,6 @@ sections:
       design:
         spacing:
           padding: ["50px", "0px", "0px", "0px"]  # 垂直30px/水平0
-        background:
-          # Choose a color such as from https://html-color-codes.info
-          color: '#f3f6fb'
-          # Text color (true=light, false=dark, or remove for the dynamic theme color).
-          text_color_light: true
 
 
 ---
