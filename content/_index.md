@@ -58,17 +58,6 @@ sections:
   - block: markdown
     content:
       text: |
-        <style>
-          body {
-            background: 
-              linear-gradient(rgba(255,255,255,0.7), 
-              rgba(255,255,255,0.7)),
-              url('background.png') center/cover fixed;
-            margin: 0;
-            min-height: 100vh;
-          }
-        </style>
-
           <style>
           .title-container {
             display: flex;
