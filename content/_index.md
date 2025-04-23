@@ -456,7 +456,7 @@ sections:
         {{< /test >}}
       design:
         spacing:
-          padding: ["20px", "0px", "0px", "0px"]  # 垂直30px/水平0
+          padding: ["0px", "0px", "0px", "0px"]  # 垂直30px/水平0
 
 
 ---
