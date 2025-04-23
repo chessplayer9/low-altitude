@@ -194,7 +194,7 @@ sections:
             display: flex;
             align-items: flex-start;
           ">
-            <img src="/low altitude/wyw.png" style="
+            <img src="/low-altitude/wyw.png" style="
               width: 120px;
               height: 150px;
               object-fit: cover;
@@ -216,7 +216,7 @@ sections:
             display: flex;
             align-items: flex-start;
           ">
-            <img src="/low altitude/zzg.jpg" style="
+            <img src="/low-altitude/zzg.jpg" style="
               width: 120px;
               height: 150px;
               object-fit: cover;
@@ -238,7 +238,7 @@ sections:
             display: flex;
             align-items: flex-start;
           ">
-            <img src="/low altitude/ck.png" style="
+            <img src="/low-altitude/ck.png" style="
               width: 120px;
               height: 150px;
               object-fit: cover;
@@ -260,7 +260,7 @@ sections:
             display: flex;
             align-items: flex-start;
           ">
-            <img src="/low altitude/xx.png" style="
+            <img src="/low-altitude/xx.png" style="
               width: 120px;
               height: 150px;
               object-fit: cover;
