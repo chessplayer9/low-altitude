@@ -178,110 +178,150 @@ sections:
 
         ## 三、组织者信息
 
-        <!DOCTYPE html>
-        <html>
-        <head>
-            <style>
-                .people-container {
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: space-between;
-                    max-width: 1000px;
-                    margin: 0 auto;
-                    padding: 20px;
-                }
-                .person {
-                    display: flex;
-                    width: 48%;
-                    margin-bottom: 30px;
-                    background-color: #f9f9f9;
-                    border-radius: 8px;
-                    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-                    overflow: hidden;
-                }
-                .person-photo {
-                    width: 150px;
-                    height: 180px;
-                    object-fit: cover;
-                }
-                .person-info {
-                    padding: 15px;
-                    flex: 1;
-                }
-                .person-name {
-                    font-size: 18px;
-                    font-weight: bold;
-                    margin-bottom: 5px;
-                    color: #2b73af;
-                }
-                .person-org {
-                    font-size: 14px;
-                    color: #666;
-                    margin-bottom: 10px;
-                    font-style: italic;
-                }
-                .person-desc {
-                    font-size: 14px;
-                    line-height: 1.5;
-                    color: #333;
-                }
-                @media (max-width: 768px) {
-                    .person {
-                        width: 100%;
-                    }
-                }
-            </style>
-        </head>
-        <body>
-            <div class="people-container">
-                <!-- 第一行 -->
-                <div class="person">
-                    <img src="https://via.placeholder.com/150x180" alt="张艳宁" class="person-photo">
-                    <div class="person-info">
-                        <div class="person-name">张艳宁</div>
-                        <div class="person-org">西北工业大学</div>
-                        <div class="person-desc">
-                            西北工业大学教授，博士生导师，主要从事智能感知与计算、计算机视觉等领域的研究工作，发表SCI/EI论文100余篇，获国家科技进步二等奖1项。
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="person">
-                    <img src="https://via.placeholder.com/150x180" alt="李世鹏" class="person-photo">
-                    <div class="person-info">
-                        <div class="person-name">李世鹏</div>
-                        <div class="person-org">IDEA研究院</div>
-                        <div class="person-desc">
-                            IDEA研究院CTO，前微软亚洲研究院副院长，IEEE Fellow，在多媒体、计算机视觉和人工智能领域有突出贡献，拥有200多项国际专利。
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- 第二行 -->
-                <div class="person">
-                    <img src="https://via.placeholder.com/150x180" alt="王涛" class="person-photo">
-                    <div class="person-info">
-                        <div class="person-name">王涛</div>
-                        <div class="person-org">航天宏图信息技术有限公司</div>
-                        <div class="person-desc">
-                            航天宏图首席科学家，长期从事遥感图像处理与解译研究，主持国家重大科技专项3项，开发了多套遥感图像处理系统，广泛应用于国土、环保等领域。
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="person">
-                    <img src="https://via.placeholder.com/150x180" alt="孙显" class="person-photo">
-                    <div class="person-info">
-                        <div class="person-name">孙显</div>
-                        <div class="person-org">中国科学院空天信息创新研究院</div>
-                        <div class="person-desc">
-                            中科院空天院研究员，国家杰出青年科学基金获得者，主要从事空天遥感信息智能处理与解译研究，在遥感图像理解领域取得多项创新性成果。
-                        </div>
-                    </div>
-                </div>
+        <!-- markdownlint-disable -->
+        <div class="team-grid" style="
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 20px;
+          margin-top: 30px;
+        "> 
+          <!-- Member 1 -->
+          <div class="member-card" style="
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: flex-start;
+          ">
+            <img src="/test_temp/cutegirl.jpg" style="
+              width: 120px;
+              height: 150px;
+              object-fit: cover;
+              margin-right: 15px;
+            ">
+            <div>
+              <h3 style="margin: 0 0 8px 0">王耀威</h3>
+              <p style="margin: 0 0 10px 0; color: #000">Huazhong University of Science and Technology</p>
+              <p style="margin: 0; color: #666; font-size: 14px;">研究方向/个人简介可以放在这里</p>
             </div>
-        </body>
-        </html>
+          </div>
+
+          <!-- Member 2 -->
+          <div class="member-card" style="
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: flex-start;
+          ">
+            <img src="/test_temp/xz.jpg" style="
+              width: 120px;
+              height: 150px;
+              object-fit: cover;
+              margin-right: 15px;
+            ">
+            <div>
+              <h3 style="margin: 0 0 8px 0">Zhuo Xu</h3>
+              <p style="margin: 0 0 10px 0; color: #000">Huazhong University of Science and Technology</p>
+              <p style="margin: 0; color: #666; font-size: 14px;">研究方向/个人简介可以放在这里</p>
+            </div>
+          </div>
+
+          <!-- Member 3 -->
+          <div class="member-card" style="
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: flex-start;
+          ">
+            <img src="/test_temp/dy.jpg" style="
+              width: 120px;
+              height: 150px;
+              object-fit: cover;
+              margin-right: 15px;
+            ">
+            <div>
+              <h3 style="margin: 0 0 8px 0">Yao Deng</h3>
+              <p style="margin: 0 0 10px 0; color: #000">Huazhong University of Science and Technology</p>
+              <p style="margin: 0; color: #666; font-size: 14px;">研究方向/个人简介可以放在这里</p>
+            </div>
+          </div>
+
+          <!-- Member 4 -->
+          <div class="member-card" style="
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: flex-start;
+          ">
+            <img src="/test_temp/zqh.jpg" style="
+              width: 120px;
+              height: 150px;
+              object-fit: cover;
+              margin-right: 15px;
+            ">
+            <div>
+              <h3 style="margin: 0 0 8px 0">Qinhao Zhou</h3>
+              <p style="margin: 0 0 10px 0; color: #000">Huazhong University of Science and Technology</p>
+              <p style="margin: 0; color: #666; font-size: 14px;">研究方向/个人简介可以放在这里</p>
+            </div>
+          </div>
+
+          <!-- Member 5 -->
+          <div class="member-card" style="
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: flex-start;
+          ">
+            <img src="/test_temp/lyf.jpg" style="
+              width: 120px;
+              height: 150px;
+              object-fit: cover;
+              margin-right: 15px;
+            ">
+            <div>
+              <h3 style="margin: 0 0 8px 0">Yifan Liang</h3>
+              <p style="margin: 0 0 10px 0; color: #000">Huazhong University of Science and Technology</p>
+              <p style="margin: 0; color: #666; font-size: 14px;">研究方向/个人简介可以放在这里</p>
+            </div>
+          </div>
+
+          <!-- Member 6 -->
+          <div class="member-card" style="
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: flex-start;
+          ">
+            <img src="/test_temp/media/flower.jpg" style="
+              width: 120px;
+              height: 150px;
+              object-fit: cover;
+              margin-right: 15px;
+            ">
+            <div>
+              <h3 style="margin: 0 0 8px 0">Ke Chen</h3>
+              <p style="margin: 0 0 10px 0; color: #000">Huazhong University of Science and Technology</p>
+              <p style="margin: 0; color: #666; font-size: 14px;">研究方向/个人简介可以放在这里</p>
+            </div>
+          </div>
+
+          <!-- Member 7 -->
+          <div class="member-card" style="
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
 
         ## 四、讲者信息
 
