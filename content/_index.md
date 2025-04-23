@@ -47,7 +47,7 @@ sections:
   - block: markdown
     content:
       text: |
-        {{< test margin="525px" bg="#ffffff" >}}
+        {{< test margin="825px" bg="#ffffff" >}}
 
         ## 一、论坛介绍
 
