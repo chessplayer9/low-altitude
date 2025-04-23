@@ -13,18 +13,35 @@ sections:
     content:
       text: |
         <style>
-          .no-wrap-center {
-            white-space: nowrap; 
+          .title-container {
             text-align: center;
-            font-size: 80px;    /* 字体大小（可调整） */
-            color: #2b73af;     /* 蓝色（可替换为HEX/颜色名） */
-            font-weight: bold;  /* 加粗（可选） */
+            position: relative;
+            margin: 20px 0;
+          }
+          .main-title {
+            white-space: nowrap;
+            font-size: 24px;
+            color: #2b73af;
+            font-weight: bold;
+            display: inline-block;
+          }
+          .sub-forum {
+            position: absolute;
+            right: 0;
+            bottom: -5px;
+            font-size: 14px;
+            color: #666;
+            white-space: nowrap;
           }
         </style>
-        <div class="no-wrap-center">低空智能感知计算与应用</div>
+
+        <div class="title-container">
+          <div class="main-title">低空智能感知计算与应用</div>
+          <div class="sub-forum">-------2025中国多媒体大会分论坛</div>
+        </div>
       design:
         spacing:
-          padding: ["200px", "0px", "0px", "0px"]  # 垂直30px/水平0
+          padding: ["100px", "0px", "0px", "0px"]  # 垂直30px/水平0
 
   - block: markdown
     content:
