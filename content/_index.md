@@ -47,7 +47,7 @@ sections:
   - block: markdown
     content:
       text: |
-        {{< test margin="825px" bg="#ffffff" >}}
+        {{< test margin="775px" bg="#ffffff" >}}
 
         ## 一、论坛介绍
 
@@ -57,7 +57,7 @@ sections:
 
         <style>
           .schedule-table {
-            width: 100%;
+            width: 75%;
             border-collapse: collapse;
             font-family: Arial, sans-serif;
             margin: 20px 0;
@@ -177,7 +177,7 @@ sections:
         {{< /test >}}
       design:
         spacing:
-          padding: ["100px", "0px", "0px", "0px"]  # 垂直30px/水平0
+          padding: ["50px", "0px", "0px", "0px"]  # 垂直30px/水平0
 
   # - block: markdown
   #   content:
