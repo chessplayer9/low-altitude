@@ -30,7 +30,7 @@ sections:
       text: |-
       design:
         spacing:
-          padding: ["40px", "0px", "0px", "0px"]  # 垂直30px/水平0
+          padding: ["100px", "0px", "0px", "0px"]  # 垂直30px/水平0
 
 
 ---
