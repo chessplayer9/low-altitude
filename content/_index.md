@@ -194,7 +194,7 @@ sections:
             display: flex;
             align-items: flex-start;
           ">
-            <img src="/test_temp/cutegirl.jpg" style="
+            <img src="/test_temp/wyw.png" style="
               width: 120px;
               height: 150px;
               object-fit: cover;
@@ -216,7 +216,7 @@ sections:
             display: flex;
             align-items: flex-start;
           ">
-            <img src="/test_temp/xz.jpg" style="
+            <img src="/test_temp/zzg.jpg" style="
               width: 120px;
               height: 150px;
               object-fit: cover;
@@ -238,7 +238,7 @@ sections:
             display: flex;
             align-items: flex-start;
           ">
-            <img src="/test_temp/dy.jpg" style="
+            <img src="/test_temp/ck.png" style="
               width: 120px;
               height: 150px;
               object-fit: cover;
@@ -260,7 +260,7 @@ sections:
             display: flex;
             align-items: flex-start;
           ">
-            <img src="/test_temp/zqh.jpg" style="
+            <img src="/test_temp/xx.png" style="
               width: 120px;
               height: 150px;
               object-fit: cover;
@@ -272,56 +272,6 @@ sections:
               <p style="margin: 0; color: #666; font-size: 14px;">华中科技大学长聘副教授、图像与视觉学习实验室（HAIVLab）负责人，鹏城实验室访问学者。近年面向低空研究开放世界感知，获得国家级海外青年人才基金，作为第一作者或通讯作者在含CVPR、ICCV、ECCV、IJCV、IEEE汇刊在内的顶会顶刊发表55篇论文，其中ACM MM长文单篇被引921次，授权或申请专利10项，被提名ICPR-22 T-CAP最佳论文奖，任JVCI副编，因对多媒体领域贡献两次被提名 AI 2000。</p>
             </div>
           </div>
-
-          <!-- Member 5 -->
-          <div class="member-card" style="
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            display: flex;
-            align-items: flex-start;
-          ">
-            <img src="/test_temp/lyf.jpg" style="
-              width: 120px;
-              height: 150px;
-              object-fit: cover;
-              margin-right: 15px;
-            ">
-            <div>
-              <h3 style="margin: 0 0 8px 0">Yifan Liang</h3>
-              <p style="margin: 0 0 10px 0; color: #000">Huazhong University of Science and Technology</p>
-              <p style="margin: 0; color: #666; font-size: 14px;">研究方向/个人简介可以放在这里</p>
-            </div>
-          </div>
-
-          <!-- Member 6 -->
-          <div class="member-card" style="
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            display: flex;
-            align-items: flex-start;
-          ">
-            <img src="/test_temp/media/flower.jpg" style="
-              width: 120px;
-              height: 150px;
-              object-fit: cover;
-              margin-right: 15px;
-            ">
-            <div>
-              <h3 style="margin: 0 0 8px 0">Ke Chen</h3>
-              <p style="margin: 0 0 10px 0; color: #000">Huazhong University of Science and Technology</p>
-              <p style="margin: 0; color: #666; font-size: 14px;">研究方向/个人简介可以放在这里</p>
-            </div>
-          </div>
-
-          <!-- Member 7 -->
-          <div class="member-card" style="
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
 
         ## 四、讲者信息
 
