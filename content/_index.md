@@ -32,13 +32,13 @@ sections:
             color: #666;
             white-space: nowrap;
             align-self: flex-end; /* 右对齐 */
-            margin-right: -400px; /* 向右偏移量 */
+            margin-right: -300px; /* 向右偏移量 */
           }
         </style>
 
         <div class="title-container">
           <div class="main-title">低空智能感知计算与应用</div>
-          <div class="sub-forum">2025中国多媒体大会分论坛</div>
+          <div class="sub-forum">——————2025中国多媒体大会分论坛</div>
         </div>
       design:
         spacing:
