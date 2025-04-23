@@ -20,7 +20,7 @@ sections:
           }
           .main-title {
             white-space: nowrap;
-            font-size: 24px;
+            font-size: 80px;
             color: #2b73af;
             font-weight: bold;
             display: inline-block;
@@ -29,7 +29,7 @@ sections:
             position: absolute;
             right: 0;
             bottom: -5px;
-            font-size: 14px;
+            font-size: 40px;
             color: #666;
             white-space: nowrap;
           }
