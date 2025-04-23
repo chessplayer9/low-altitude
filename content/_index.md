@@ -17,7 +17,7 @@ sections:
           .no-wrap-center {
             white-space: nowrap; 
             text-align: center;
-            font-size: 24px;    /* 字体大小（可调整） */
+            font-size: 80px;    /* 字体大小（可调整） */
             color: #2b73af;     /* 蓝色（可替换为HEX/颜色名） */
             font-weight: bold;  /* 加粗（可选） */
           }
